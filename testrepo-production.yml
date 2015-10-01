@@ -1,0 +1,8 @@
+spring:
+  profiles: production
+spring.datasource:
+  platform: mysql
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/test-spring-web
+  username: root
+  password:
