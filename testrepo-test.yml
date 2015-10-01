@@ -1,7 +1,0 @@
-spring:
-  profiles: test
-  jpa.show-sql: true
-spring.datasource:
-  platform: h2
-  driverClassName: org.h2.Driver
-  url: jdbc:h2:mem:test-spring-web;MODE=MySQL
